@@ -127,29 +127,29 @@
         }
       }
     },
-    "sense-hub-api": {
+    "sh-api": {
       "projectType": "library",
-      "root": "libs/sense-hub-api",
-      "sourceRoot": "libs/sense-hub-api/src",
+      "root": "libs/sh-api",
+      "sourceRoot": "libs/sh-api/src",
       "prefix": "workspace-sense-hub",
       "architect": {
         "lint": {
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "libs/sense-hub-api/tsconfig.lib.json",
-              "libs/sense-hub-api/tsconfig.spec.json"
+              "libs/sh-api/tsconfig.lib.json",
+              "libs/sh-api/tsconfig.spec.json"
             ],
-            "exclude": ["**/node_modules/**", "!libs/sense-hub-api/**"]
+            "exclude": ["**/node_modules/**", "!libs/sh-api/**"]
           }
         },
         "test": {
           "builder": "@nrwl/jest:jest",
           "options": {
-            "jestConfig": "libs/sense-hub-api/jest.config.js",
-            "tsConfig": "libs/sense-hub-api/tsconfig.spec.json",
+            "jestConfig": "libs/sh-api/jest.config.js",
+            "tsConfig": "libs/sh-api/tsconfig.spec.json",
             "passWithNoTests": true,
-            "setupFile": "libs/sense-hub-api/src/test-setup.ts"
+            "setupFile": "libs/sh-api/src/test-setup.ts"
           }
         }
       },

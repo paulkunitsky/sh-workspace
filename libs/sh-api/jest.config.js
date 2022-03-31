@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'sense-hub-api',
+  name: 'sh-api',
   preset: '../../jest.config.js',
-  coverageDirectory: '../../coverage/libs/sense-hub-api',
+  coverageDirectory: '../../coverage/libs/sh-api',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',
