@@ -44,7 +44,7 @@
     "angular-confirmation-popover": "^5.0.0",
     "bootstrap": "^4.5.0",
     "core-js": "^2.5.4",
-    "moment": "^2.26.0",
+    "moment": "^2.29.2",
     "moment-timezone": "^0.5.31",
     "ngx-moment": "^3.5.0",
     "ngx-perfect-scrollbar": "^9.0.0",
