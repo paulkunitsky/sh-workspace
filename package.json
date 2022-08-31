@@ -45,7 +45,7 @@
     "bootstrap": "^4.5.0",
     "core-js": "^2.5.4",
     "moment": "^2.26.0",
-    "moment-timezone": "^0.5.31",
+    "moment-timezone": "^0.5.35",
     "ngx-moment": "^3.5.0",
     "ngx-perfect-scrollbar": "^9.0.0",
     "rxjs": "~6.5.4",
